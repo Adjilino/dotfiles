@@ -20,6 +20,14 @@ brew install stow
 brew install zoxide
 ```
 
+
+## Install Aerospace
+
+```
+brew install --cask nikitabobko/tap/aerospace
+```
+
+
 ## dotfiles
 Clone the repo to home (~).
 Inside the dotfiles use the command
