@@ -1,0 +1,57 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "theme": {
+        "mode": "system",
+        "light": "Xcode Default Light",
+        "dark": "Xcode Default Dark"
+    },
+    "features": {
+        "inline_completion_provider": "none",
+        "copilot": false
+    },
+    "vim_mode": true,
+    "tab_size": 4,
+    "relative_line_numbers": true,
+    "ui_font_family": "MesloLGS Nerd Font Mono",
+    "buffer_font_family": "MesloLGS Nerd Font Mono",
+    "show_whitespaces": "boundary"
+    // "experimental.theme_overrides": {
+    //     // for Xcode Default Light
+    //     // "background.appearance": "blurred",
+    //     // "background": "#e8e8e8c0",
+    //     // "border": "#e8e8e8c0",
+    //     // "text": "#000000ff",
+    //     // "text.muted": "#404040ff",
+    //     // // problem: what is text.disabled / ghost_element.disabled
+    //     // // "text.disabled": "#808080ff",
+    //     // "status_bar.background": "#e8e8e8c0",
+    //     // "title_bar.background": "#e8e8e8c0",
+    //     // "panel.background": "#00000000",
+    //     // "ghost_element.background": "#00000000",
+    //     // "ghost_element.hover": "#00000020",
+    //     // "ghost_element.active": "#00000020",
+    //     // "ghost_element.selected": "#00000020"
+    //     // for Xcode Default Dark
+    //     "background.appearance": "blurred",
+    //     "background": "#2a2a30c0",
+    //     "border": "#2a2a30c0",
+    //     "text": "#ffffffff",
+    //     "text.muted": "#bfbfbfff",
+    //     // problem: what is text.disabled / ghost_element.disabled
+    //     // "text.disabled": "#something",
+    //     "status_bar.background": "#2a2a30c0",
+    //     "title_bar.background": "#2a2a30c0",
+    //     "panel.background": "#00000000",
+    //     "ghost_element.background": "#00000000",
+    //     "ghost_element.hover": "#a8a8a880",
+    //     "ghost_element.active": "#a8a8a880",
+    //     "ghost_element.selected": "#a8a8a880"
+    // }
+}
