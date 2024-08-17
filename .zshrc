@@ -1,6 +1,9 @@
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Zoxide
+eval "$(zoxide init --cmd cd zsh)"
+
 # Starship
 eval "$(starship init zsh)"
 

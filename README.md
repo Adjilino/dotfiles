@@ -14,6 +14,12 @@ _Better to follow the official site https://brew.sh_
 brew install stow
 ```
 
+## Install Zoxide
+
+```
+brew install zoxide
+```
+
 ## dotfiles
 Clone the repo to home (~).
 Inside the dotfiles use the command
