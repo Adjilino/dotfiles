@@ -87,9 +87,12 @@ return {
             pyright = {},
             rust_analyzer = {},
             tsserver = {},
+
             html = {},
             cssls = {},
             tailwindcss = {},
+
+			angularls = {},
 
             lua_ls = {
                 Lua = {
