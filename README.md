@@ -37,7 +37,12 @@ stow --adopt .
 ```
 
 ## Terminal
-This config is configure for [Allacritty](https://github.com/alacritty/alacritty)
+This config is configure for [Kitty](https://sw.kovidgoyal.net/kitty)
+```
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+```
+
+Before Kitty: [Allacritty](https://github.com/alacritty/alacritty)
 
 
 
