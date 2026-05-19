@@ -24,7 +24,7 @@ The bootstrap script will:
 
 - `shell/` manages `~/.zshenv`
 - `tmux/` manages `~/.tmux.conf`
-- `xdg/` manages shared `~/.config/*` files like zsh, nvim, ghostty, starship, and opencode
+- `xdg/` manages shared `~/.config/*` files like zsh, nvim, zed, ghostty, starship, and opencode
 - `macos/` manages macOS-only config like Karabiner
 
 ## Shell config and secrets
