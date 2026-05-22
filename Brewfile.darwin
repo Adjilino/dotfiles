@@ -2,5 +2,4 @@ cask "ghostty"
 cask "karabiner-elements"
 cask "rectangle"
 
-tap "cormacrelf/tap"
 brew "cormacrelf/tap/dark-notify"

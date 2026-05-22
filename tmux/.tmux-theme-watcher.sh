@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Launch dark-notify watcher detached from tmux's run-shell parent.
-# Triggered by ~/.tmux.conf via `run-shell -b`.
+# Re-source ~/.tmux-theme.conf whenever macOS toggles Light/Dark.
+# Launched detached from tmux's `run-shell -b` (see ~/.tmux.conf).
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
@@ -14,5 +14,3 @@ nohup bash -c '
     tmux refresh-client -S
   done
 ' </dev/null >/dev/null 2>&1 &
-
-disown
