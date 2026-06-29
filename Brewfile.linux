@@ -1,1 +1,2 @@
 # Linux-specific Homebrew packages can be added here as needed.
+brew "dbus"
