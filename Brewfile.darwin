@@ -1,5 +1,6 @@
 cask "ghostty"
 cask "karabiner-elements"
+cask "mac-mouse-fix@2"
 cask "rectangle"
 
 brew "cormacrelf/tap/dark-notify"
