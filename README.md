@@ -18,6 +18,7 @@ The bootstrap script will:
 - install platform packages from `Brewfile.darwin` or `Brewfile.linux`
 - stow the dotfiles into `$HOME`
 - install TPM for tmux plugins
+- install the Pi coding agent when `npm` is available
 - create `~/.config/zsh/local.zsh` from the example file if it does not exist yet
 
 ## Layout
@@ -25,6 +26,7 @@ The bootstrap script will:
 - `shell/` manages `~/.zshenv`
 - `tmux/` manages `~/.tmux.conf`
 - `xdg/` manages shared `~/.config/*` files like zsh, nvim, zed, ghostty, starship, and opencode
+- `pi/` manages non-secret Pi agent settings under `~/.pi/agent`
 - `macos/` manages macOS-only config like Karabiner
 
 ## Shell config and secrets
@@ -57,6 +59,7 @@ If you intentionally changed a managed file in `$HOME` and want to bring that ve
 ## Notes
 
 - `opencode.json` stays tracked in git; only local runtime files under `xdg/.config/opencode/` are ignored
+- Pi `settings.json` stays tracked in git; auth, model cache, trust, and session files stay local
 - `Brewfile.darwin` installs GUI apps like Ghostty, Karabiner-Elements, and Rectangle
 - Node version management uses `fnm`; the shell keeps an `nvm` compatibility function that forwards common commands to `fnm`
 - `scripts/bootstrap.sh` migrates `~/.nvm/alias/default` into `fnm` when that file exists

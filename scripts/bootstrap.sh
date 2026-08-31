@@ -130,6 +130,20 @@ prepare_local_shell_config() {
   cp "$REPO_ROOT/xdg/.config/zsh/local.zsh.example" "$local_shell_file"
 }
 
+install_pi_agent() {
+  if command -v pi >/dev/null 2>&1; then
+    return
+  fi
+
+  if ! command -v npm >/dev/null 2>&1; then
+    log "Skipping Pi install because npm is not available"
+    return
+  fi
+
+  log "Installing Pi coding agent"
+  npm install -g --ignore-scripts @earendil-works/pi-coding-agent
+}
+
 main() {
   install_homebrew
   activate_homebrew
@@ -137,6 +151,7 @@ main() {
   migrate_nvm_default_to_fnm
   "$REPO_ROOT/scripts/stow.sh"
   install_tmux_plugin_manager
+  install_pi_agent
   prepare_local_shell_config
   log "Bootstrap complete"
 }

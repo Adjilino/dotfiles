@@ -96,10 +96,10 @@ cleanup_legacy_layout() {
 package_names() {
   case "$(uname -s)" in
     Darwin)
-      printf 'shell\ntmux\nxdg\nmacos\n'
+      printf 'shell\ntmux\nxdg\npi\nmacos\n'
       ;;
     Linux)
-      printf 'shell\ntmux\nxdg\n'
+      printf 'shell\ntmux\nxdg\npi\n'
       ;;
     *)
       printf 'Unsupported platform: %s\n' "$(uname -s)" >&2

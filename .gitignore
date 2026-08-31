@@ -6,4 +6,8 @@ xdg/.config/opencode/bun.lock
 xdg/.config/opencode/node_modules/
 xdg/.config/opencode/package.json
 xdg/.config/zsh/local.zsh
+pi/.pi/agent/auth.json
+pi/.pi/agent/models-store.json
+pi/.pi/agent/trust.json
+pi/.pi/agent/sessions/
 macos/.config/karabiner/automatic_backups/
