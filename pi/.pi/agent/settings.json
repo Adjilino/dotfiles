@@ -1,6 +1,8 @@
 {
   "lastChangelogVersion": "0.84.4",
-  "theme": "light",
+  "theme": "light/dark",
   "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.5"
+  "defaultModel": "gpt-5.5",
+  "httpIdleTimeoutMs": 0,
+  "tuiMode": "fullscreen"
 }
